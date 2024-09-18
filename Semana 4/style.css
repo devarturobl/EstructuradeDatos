@@ -1,0 +1,11 @@
+/* Usuario mueve el ratón sobre un enlace */
+a:hover {
+    background-color: cyan;
+    padding: 2px
+  }
+  
+  /* Usuario mueve el ratón sobre un div y resalta todos los enlaces que contiene */
+  div:hover a {
+    background-color: steelblue;
+    color: white;
+  }
