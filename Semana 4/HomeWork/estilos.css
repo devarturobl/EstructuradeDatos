@@ -1,0 +1,147 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 20px;
+  }
+
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+#nav-link {
+    padding: 10px;
+    background-color: gray;
+    border-radius: 5px;
+    text-decoration: none; /* Elimina el subrayado por defecto */
+    color: inherit; /* Mantiene el color del texto según el contexto del enlace */
+    color: white;
+    border-color: black;
+    border-style: solid;
+}
+
+#nav-link:hover {
+    background-color: white;
+    border-radius: 5px;
+    color: gray;
+    border-color: black;
+    border-style: solid;
+}
+
+/* Estilos para la sección de intro */
+.intro {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Ocupar toda la ventana visible */
+    background: linear-gradient(135deg, #1a2a6c, #b21f1f, #fdbb2d); /* Fondo degradado llamativo */
+    color: white; /* Texto en blanco para contraste */
+    text-align: center;
+    padding: 20px;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.3); /* Sombra para dar profundidad */
+    font-family: 'Poppins', sans-serif; /* Tipografía moderna */
+}
+
+.intro h1 {
+    font-size: 4rem; /* Tamaño grande para el encabezado principal */
+    font-weight: 700; /* Negritas para un impacto visual */
+    text-transform: uppercase; /* Convertir a mayúsculas */
+    letter-spacing: 0.1em; /* Espaciado entre letras */
+    margin: 0;
+    animation: fadeIn 2s ease-in-out; /* Animación de entrada */
+}
+
+.intro p {
+    font-size: 1.5rem; /* Texto más pequeño que el título pero aún destacado */
+    margin-top: 10px;
+    font-weight: 300; /* Menos grosor para un contraste sutil con el título */
+    animation: fadeIn 3s ease-in-out; /* Animación más lenta que el título */
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+        transform: translateY(20px); /* Efecto de deslizamiento hacia arriba */
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.contacto_ico{
+    height: 25px;
+    width: 25px;
+}
+
+.habilidades_ico{
+    height: 50px;
+    width: 50px;
+}
+
+/*Codigo de carrusel*/
+/* Estilos para la sección de habilidades */
+#habilidades {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #f4f4f4;
+}
+
+#habilidades h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+/* Contenedor del carrusel */
+.carousel-container {
+    overflow: hidden; /* Oculta lo que esté fuera de la vista del contenedor */
+    padding: 10px 0;
+}
+
+/* Carrusel */
+.carousel {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px; /* Espacio entre los elementos del carrusel */
+    scroll-snap-type: x mandatory; /* Ajuste al desplazarse */
+    overflow-x: auto; /* Habilita el desplazamiento horizontal */
+    scroll-behavior: smooth; /* Desplazamiento suave */
+    padding-bottom: 20px; /* Espacio en la parte inferior */
+}
+
+.carousel::-webkit-scrollbar {
+    display: none; /* Ocultar la barra de desplazamiento en Chrome/Safari */
+}
+
+.carousel {
+    scrollbar-width: none; /* Ocultar la barra de desplazamiento en Firefox */
+}
+
+/* Elementos del carrusel */
+.item {
+    min-width: 100px; /* Ancho mínimo de cada tarjeta */
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    scroll-snap-align: start; /* Alinear cada elemento al principio */
+    flex: none; /* No permite que el tamaño del item sea flexible */
+    transition: transform 0.3s ease;
+}
+
+.item h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.item p {
+    font-size: 1rem;
+    color: #666;
+}
+
+/* Efecto hover */
+.item:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+}

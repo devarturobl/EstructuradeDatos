@@ -4,8 +4,22 @@ a:hover {
     padding: 2px
   }
   
-  /* Usuario mueve el ratón sobre un div y resalta todos los enlaces que contiene */
-  div:hover a {
-    background-color: steelblue;
-    color: white;
-  }
+/* Usuario mueve el ratón sobre un div y resalta todos los enlaces que contiene */
+div:hover a {
+  background-color: steelblue;
+  color: white;
+}
+
+a:active {
+  border: 2px solid #FF0000;
+  padding: 2px
+}
+
+/* El campo ha ganado el foco */
+input:focus {
+  border: 4px dotted #FF0000
+}
+
+form :focus-within {
+  background: yellow;
+}

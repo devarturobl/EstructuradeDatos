@@ -25,5 +25,29 @@
         <a href="#">Enlace en Div 3</a>
         <a href="#">Enlace en Div 4</a>
     </div>
+
+    <h3>La pseudoclase :active</h3>
+    <p>Por otro lado, la segunda pseudoclase, :active, permite resaltar los elementos que se encuentran activos, o lo que es lo mismo, elementos que están siendo pulsados en ese instante con el ratón por el usuario:</p>
+    <a href="#">Ejemplo Elace Active</a>
+    <p>Es importante destacar que esta pseudoclase no puede encargarse de detectar pulsación con persistencia, es decir, no guarda el estado de «ha sido pulsado», sino que sólo es capaz de detectar este comportamiento en el momento justo de ser pulsado. Si necesitamos persistencia, tendríamos que hacer uso de Javascript.</p>
+
+    <h3>La pseudoclase :focus</h3>
+    <p>Cuando estamos escribiendo en un campo de texto de un formulario de una página web, generalmente pulsamos  para cambiar al siguiente campo y + para volver al anterior. Cuando estamos posicionados en un elemento, se dice que ese elemento tiene el foco, mientras que al pulsar  y saltar a otro, solemos decir que pierde el foco. También es posible ganar o perder el foco pulsando con el ratón en un elemento.
+    El comportamiento de «ganar el foco» puede gestionarse mediante la pseudoclase :focus:</p>
+    <p>Ejemplo con un input</p>
+    <input type="text">
+    <input type="text">
+    <input type="text">
+
+    <h3>La pseudoclase :focus-within</h3>
+    <p>La pseudoclase :focus-within permite darle estilo no sólo al elemento que tiene el foco, sino también a los elementos contenedores relacionados con el elemento que gana el foco. En este ejemplo, :focus-within permite que cuando uno de los campos <input> del formulario gane el foco, podamos iluminar también el elemento label, que es su contenedor:</p>
+    <p>Ejemplo con un formulario</p>
+    <form>
+        <label>Name: <input type="text"></label>
+        <label>Email: <input type="text"></label>
+    </form>
+
+    
+
 </body>
 </html>
