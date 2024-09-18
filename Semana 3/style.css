@@ -1,0 +1,78 @@
+.my_back{
+    width: 25px;
+    height: 25px;
+}
+
+.my_back:hover{
+    width: 27px;
+    height: 27px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color:white;
+}
+
+header {
+    margin-top: 30px;
+    background-color: #3c3c3c;
+    color: white;
+    padding: 1rem 2rem;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    border-radius: 5px;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+nav a:hover {
+    background-color: #0056b3;
+    transform: scale(1.1);
+}
+
+.in{
+    padding: 16px;
+    display: flex;
+    justify-content: center;
+}
+
+.out{
+    padding: 16px;
+    display: flex;
+    justify-content: center;
+}
+
+.hero {
+    background-color: #515151;
+    color: white;
+    padding: 5rem 2rem;
+    text-align: center;
+}
+
+.s1 {
+    background-color: #666666;
+    color: white;
+    padding: 2rem 2rem;
+}
+
+.s2 {
+    background-color: #8c8c8c;
+    color: white;
+    padding: 2rem 2rem;
+}
+
+.s3 {
+    background-color: #b5b5b5;
+    color: white;
+    padding: 2rem 2rem;
+}
