@@ -1,4 +1,4 @@
-/*isMember = false;
+isMember = false;
 console.log("La Cuota es de:  " + (isMember ? "$2.00" : "$10.00"));
 
 cliente = true;
@@ -80,7 +80,7 @@ function negacion(permiso) {
     for (let y = 1; y !== 11; y++){
         console.log(x + " X " + y + " = " + x * y);
     }
- } */
+ } 
 
 function tablasDelAl(num1, num2){
     for (let x = num1; x !== num2 + 1; x++){
