@@ -8,6 +8,7 @@ function esVocal(letra) {
   // "n" ---> "Dato incorrecto"
   // "texto largo" ---> "Dato incorrecto"
   // Tu código:
+  
 }
 
 module.exports = esVocal;

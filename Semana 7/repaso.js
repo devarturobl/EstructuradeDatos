@@ -105,7 +105,7 @@ while(incremento < 3){
     console.log("Valor de incremento: " + incremento);
     incremento++;
 }
-*/
+
 
 //Genera numeros hasta que valga 3
 
@@ -127,4 +127,5 @@ console.log("Valor Aleatorio con floor: " + randomIntegerInRange);
 while(randomIntegerInRange != 6){
 randomIntegerInRange = Math.floor(Math.random() * (max - min + 1)) + min;
 console.log("Valores aleatorios: " + randomIntegerInRange); // Ejemplo: 8
-}
+}*/
+

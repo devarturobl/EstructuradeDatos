@@ -1,0 +1,123 @@
+[
+    {
+      "id": 1,
+      "name": "Silla Moderna",
+      "price": 75,
+      "image": "assets/1.png"
+    },
+    {
+      "id": 2,
+      "name": "Sillón Clásico",
+      "price": 120.50,
+      "image": "assets/2.png"
+    },
+    {
+      "id": 3,
+      "name": "Silla de Oficina",
+      "price": 95.00,
+      "image": "assets/3.png"
+    },
+    {
+      "id": 4,
+      "name": "Sillón Relax",
+      "price": 200.00,
+      "image": "assets/4.png"
+    },
+    {
+      "id": 5,
+      "name": "Silla Gamer",
+      "price": 150.25,
+      "image": "assets/5.png"
+    },
+    {
+      "id": 6,
+      "name": "Sillón Vintage",
+      "price": 180.75,
+      "image": "assets/6.png"
+    },
+    {
+      "id": 7,
+      "name": "Silla de Comedor",
+      "price": 45.99,
+      "image": "assets/7.png"
+    },
+    {
+      "id": 8,
+      "name": "Sillón Ejecutivo",
+      "price": 210.00,
+      "image": "assets/8.png"
+    },
+    {
+      "id": 9,
+      "name": "Silla Plegable",
+      "price": 30.00,
+      "image": "assets/9.png"
+    },
+    {
+      "id": 10,
+      "name": "Sillón de Cuero",
+      "price": 350.00,
+      "image": "assets/10.png"
+    },
+    {
+      "id": 11,
+      "name": "Silla Alta de Bar",
+      "price": 60.00,
+      "image": "assets/11.png"
+    },
+    {
+      "id": 12,
+      "name": "Sillón Lounge",
+      "price": 270.50,
+      "image": "assets/12.png"
+    },
+    {
+      "id": 13,
+      "name": "Silla Tapizada",
+      "price": 85.99,
+      "image": "assets/13.png"
+    },
+    {
+      "id": 14,
+      "name": "Sillón de Madera",
+      "price": 195.00,
+      "image": "assets/14.png"
+    },
+    {
+      "id": 15,
+      "name": "Silla Ergonómica",
+      "price": 130.00,
+      "image": "assets/15.png"
+    },
+    {
+      "id": 16,
+      "name": "Sillón Minimalista",
+      "price": 220.99,
+      "image": "assets/16.png"
+    },
+    {
+      "id": 17,
+      "name": "Silla de Jardín",
+      "price": 40.00,
+      "image": "assets/17.png"
+    },
+    {
+      "id": 18,
+      "name": "Sillón Chesterfield",
+      "price": 400.00,
+      "image": "assets/18.png"
+    },
+    {
+      "id": 19,
+      "name": "Silla Industrial",
+      "price": 70.50,
+      "image": "assets/19.png"
+    },
+    {
+      "id": 20,
+      "name": "Sillón Reclinable",
+      "price": 300.00,
+      "image": "assets/20.png"
+    }
+  ]
+  
