@@ -10,6 +10,10 @@ for(let i = 1; i<=1025; i++){
 }
 
 function mostrarPokemon(poke){
+
+    let tipos = poke.types.map((type)=> `<p class="${type.type.name} tipo">${type.type.name}`);
+    tipos = tipos.join('');
+
     const div = document.createElement("div");
     div.classList.add("pokemon");
     div.innerHTML = `
@@ -19,16 +23,15 @@ function mostrarPokemon(poke){
                     </div>
                     <div class="pokemon-info">
                         <div class="nombre-contenedor">
-                            <p class="pokemon-id">#025</p>
+                            <p class="pokemon-id">#${poke.id}</p>
                             <h2 class="pokemon-nombre">${poke.name}</h2>
                         </div>
                         <div class="pokemon-tipos">
-                            <p class="electric tipo">ELECTRIC</p>
-                            <p class="fighting tipo">FIGHTING</p>
+                            ${tipos}
                         </div>
                         <div class="pokemon-stats">
-                            <p class="stat">4m</p>
-                            <p class="stat">60kg</p>
+                            <p class="stat">${poke.height}ft</p>
+                            <p class="stat">${poke.weight}lb</p>
                         </div>
                     </div>
                 </div>
